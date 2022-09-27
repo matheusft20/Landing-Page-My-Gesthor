@@ -67,7 +67,7 @@ span {
   color: aqua;
 }
 
-p {
+.legenda {
   line-height: 20px;
   max-width: 500px;
   font-family: poppinslight;
@@ -81,7 +81,12 @@ p {
 
 
 }
-
+img {
+  position: relative;
+  left: 500px;
+  width: 400px;
+  bottom: 10px;
+}
 
 
 
@@ -107,7 +112,7 @@ form[type="submit"]:hover {
 }
 
 input {
-  margin-top: 20px;
+  margin-top: 5px;
   height: 25px;
   padding: 15px;
   border-radius: 20px;
@@ -122,6 +127,7 @@ input {
   align-items: center;
   font-size: 30px;
   justify-content: center;
+
 }
 
 .relogio > div{
@@ -140,9 +146,8 @@ smalltext {
 }
 
 .demo{
-  text-align: center;
-  justify-content: center;
   font-size: 40px;
-  display: flex;
+  text-align: center;
+
 
 }
