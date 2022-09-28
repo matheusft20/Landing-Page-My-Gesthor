@@ -151,3 +151,31 @@ smalltext {
 
 
 }
+
+
+button{
+  width: 320px; height: 60px;
+  background-color: rgb(123, 44, 191);
+  color: white;
+  font-weight: bold;
+  border-radius: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 15px;
+  display: block;
+ 
+}
+
+a[href="./bem-vindo.html"] {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: Rubik;
+}
+
+
+
+
+
+ 
