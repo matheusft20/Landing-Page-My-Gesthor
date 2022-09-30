@@ -1,10 +1,12 @@
 body{
-    background-color: rgb(34, 34, 34);
+    background-color: #cccccc;
     color: white;
     font-family: poppinsregular;
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px;
+    background-image: url(/components/images/lines-1920x1080-digital-red-4k-18954.jpg);
+
 }
 
 header{
@@ -104,3 +106,21 @@ input{
     border: none;
     font-size: 15px;
 }
+
+.whatsapp{
+    color: aqua;
+    
+}
+
+.btn-chat {
+    font-size: 15px;
+    padding-top:5px ;
+    padding: bottom 5px; ;
+
+}
+
+.btn-chat:hover{
+    background-color:aqua;
+    color: white;
+}
+
