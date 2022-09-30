@@ -31,10 +31,12 @@
             <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
             </p>
-            <form>
-                <input type="text" placeholder="Nome">
-                <input type="email" placeholder="E-mail">
-                <input class="btn-enviar" type="submit" value="Enviar >">
+            <form action="https://formsubmit.co/se7inset@gmail.com" method="post">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/screens/sucesso.html">
+                <input type="text" placeholder="Nome" required>
+                <input type="email" name="subject" placeholder="E-mail" required  >
+                <input  class="btn-enviar" name="enviar" type="submit" value="Enviar >"> 
+                
             </form>
         </aside>
 
@@ -42,6 +44,9 @@
             <!--<img src="" alt="mulher-roxa">-->
         </article>
     </main>
+
+
+
     
 </body>
 </html>
